@@ -1,0 +1,31 @@
+{
+  "src_folders" : ["./tests"],
+  "page_objects_path" : "pages",
+  "globals_path" : "globals",
+  "webdriver" : {
+    "start_process": true
+  },
+
+  "webdriver": {
+    "server_path": "node_modules/.bin/chromedriver",
+    "cli_args": [
+      "--verbose"
+    ],
+    "port": 9515
+  },
+
+  "test_settings" : {
+    "default" : {
+      "desiredCapabilities" : {
+        "browserName" : "chrome"
+      }
+    }
+  },
+
+  "custom_commands_path": [
+    "node_modules/nightwatch-vrt/commands"
+  ],
+  "custom_assertions_path": [
+    "node_modules/nightwatch-vrt/assertions"
+  ]
+}

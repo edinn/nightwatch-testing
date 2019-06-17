@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="test5"
+    errors="0" failures="1" hostname="" id="" package="test5" skipped="0"
+    tests="2" time="6.100" timestamp="">
+  
+    <testcase name="step one: navigate" classname="test5" time="1.594" assertions="0">
+    </testcase>
+  
+    <testcase name="Test chart" classname="test5" time="4.506" assertions="3">
+
+    
+
+      <failure message="Visual regression test results for element &lt;#chartdiv&gt; in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;/Users/edingacan/automation/vrt/diff/test5/Test chart/#chartdiv.png&#34;[0m">    at Object.Test chart (/Users/edingacan/automation/tests/test5.js:21:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.Test chart (/Users/edingacan/automation/tests/test5.js:21:21)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
